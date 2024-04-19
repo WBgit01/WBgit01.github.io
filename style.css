@@ -1,0 +1,125 @@
+/* External Style CSS */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(IMG/bg.svg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid darkgray;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+
+.header h2 a {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+.header h2 a:hover {
+  color: white;
+  background-color: #595956;
+  transition: 0.3s;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  width: 150px;
+}
+.header .BW{
+  filter: grayscale(100%);
+}
+
+/*SELF INTRODUCTION STYLE*/
+h3 {
+  font-size: 22px;
+  color: white;
+  background-color: #595956;
+  padding: 0.4rem;
+  font-style: italic;
+}
+p{
+  color: white;
+  text-indent: 20px;
+  font-size: 17px;
+}
+
+/*EDUCATIONAL BACKGROUND STYLE*/
+.edu_background h4 {
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid #595956;
+  padding: 0.4rem;
+  font-style: italic;
+}
+
+.table {
+  border: 2px solid #1f2626;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: #1f2626;
+  font-weight: bold;
+ 
+}
+
+tbody {
+  font-size: 17px;
+  color: white;
+  background-color: #595956;
+}
+
+th, td {
+  padding: 8px;
+}
+
+.lvl{
+  font-weight: bold;
+}
+
+/*EXPERTISE STYLE*/
+.expertise ul li{
+  list-style-type: square;
+  font-size: 17px;
+  color: white;
+}
+
+/*BACKGROUND ON IT STYLE*/
+.background_IT h4 {
+  font-size: 22px;
+  color: white;
+  background-color: #595956;
+  padding: 0.4rem;
+  font-style: italic;
+}
+
+/*APPLICATION USED IN STUDYING STYLE*/
+.app_studying h4 {
+  font-size: 22px;
+  color: white;
+  background-color: #595956;
+  padding: 0.4rem;
+  font-style: italic;
+}
+.app_studying ol li {
+  font-size: 17px;
+  color: white;
+}
